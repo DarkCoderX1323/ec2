@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class IDATController {
+public class IdatController {
 
     @GetMapping("/")
     public String mostrarCodigoYNombre() {
